@@ -195,7 +195,6 @@ ModelKappa = function(datain, category, item, rater){
 ####################
 
 ### read in Holmquist data
-setwd("Y:\\Paper 6 (clinical)\\Submission to AnnalsEpi 04202017")
 holmdata <- read.table("holmquist_data.txt", header=T)
 head(holmdata)
 
